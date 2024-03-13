@@ -152,11 +152,11 @@ branch_no;
 select c.customer_name,i.issued_date from customer c left join issuestatus i on
 c.customer_id=i.issued_cust where year(i.issued_date)=2023 AND month(i.issued_date)=6;
 
--- 9.Retrieve book_title from book table containing history.
+-- 9.Retrieve book_title from book table containing fiction.
 
 select book_title from books where category='fiction';
 
--- 10.Retrieve the branch numbers along with the count of employees for branches having more than 5 employees
+-- 10.Retrieve the branch numbers along with the count of employees for branches having more than 2 employees
 
 select b.branch_no,count(e.emp_id) as total_employees from
 braanch b left join  employee e on b.branch_no=e.branch_no group by
