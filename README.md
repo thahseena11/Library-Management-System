@@ -45,5 +45,6 @@ Queries:
 10.Retrieve the branch numbers along with the count of employees for branches having more than 5 employees
 
 Conclusion:
+
 It helps to organize and manage library resources and effectively handles book management,employee tracking,customer records,transaction management.
 
