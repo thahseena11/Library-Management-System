@@ -17,9 +17,13 @@ Returnstatus:
 details on books returned by customers incliding return id,book name and return date.
 
 Queries:
+
 1.Retrieve the book title,category  and rental price of all available books.
+
 2.List the employee names and their respective salaries in descending order of salary.
+
 3.Retrieve the book titles and the corresponding customers who have isued those books.
+
 4.Retrieve the employee names and their position for the employees whose salaries are above Rs.50,000.
 5.Display the total count of books in each category.
 6.List the customer names who registered before 2022-01-01 and have not issued any books yet.
